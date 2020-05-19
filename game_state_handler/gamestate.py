@@ -23,7 +23,7 @@ class GameState(object):
         """
         self.persist = persistent
 
-    def get_event(self, event):
+    def get_event(self, event: pg.event.Event):
         """
         Handle a single event passed by the Game object.
         """
