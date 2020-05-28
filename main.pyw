@@ -7,9 +7,9 @@ from mainmenu import MainMenu
 if __name__ == "__main__":
     pg.init()
     states = {
-        "MAINMENU": MainMenu(),
+        # "MAINMENU": MainMenu(),
         "GAMEPLAY": Gameplay()
     }
-    game = Game(states, "MAINMENU")
+    game = Game(states, "GAMEPLAY")
     game.run()
     pg.quit()

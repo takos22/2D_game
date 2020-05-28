@@ -12,7 +12,7 @@ from game_elements.tile import Tile
 class Gameplay(GameState):
     def __init__(self):
         super(Gameplay, self).__init__()
-        self.next_state = "MAINMENU"
+        self.next_state = "GAMEPLAY"
 
     def startup(self, persistent: dict):
         self.persist = persistent
