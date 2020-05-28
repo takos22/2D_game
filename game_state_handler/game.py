@@ -22,7 +22,7 @@ class Game(object):
         """
         self.done = False
         self.clock = pg.time.Clock()
-        self.fps = 30
+        self.fps = 32
         self.states = states
         self.state_name = start_state
         self.state = self.states[self.state_name]
